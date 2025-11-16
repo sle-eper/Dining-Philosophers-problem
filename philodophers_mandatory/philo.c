@@ -86,6 +86,6 @@ int	main(int ac, char **av)
 		(free(help->t1), free(help->philo), free(help->forks));
 	}
 	else
-		printf("number for argument invalid !!!\n");
+		printf("Usage: ./philo number_of_philosophers time_to_die time_to_eat time_to_sleep [number_of_times_each_philosopher_must_eat]\n");
 	return (free(help), 0);
 }
